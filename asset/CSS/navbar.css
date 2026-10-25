@@ -1,0 +1,115 @@
+:root {
+    --primary-font-family: "Poppins", sans-serif;
+    --primary-color: #000000;
+    --secondary-color: #494949;
+    --ternary-color: #FFFFFF;
+    --top-padding: 60px;
+    --bottom-padding: 60px;
+    --bg-color: #099CDF;
+    --bg-color-two: #2971AE;
+    --font-size-primary: 40px;
+    --font-size-secondary: 24px;
+    --font-size-tertiary: 17px;
+
+    /*----mbile font size----*/
+    --font-size-mobile-primary: 28px;
+    --font-size-mobile-secondary: 22px;
+    --font-size-mobile-tertiary: 16px;
+
+}
+
+/*--- Top Navigation Bar --*/
+.top-nav-bg {
+    background-color: var(--bg-color);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.top-nav-contact .contact a {
+    color: var(--ternary-color);
+    font-weight: 500;
+    font-size: 17px;
+    font-family: var(--primary-font-family);
+    text-decoration: none !important;
+}
+
+.top-nav-contact .contact i {
+    color: var(--ternary-color);
+}
+
+.top-nav-contact .social-icon a {
+    color: var(--ternary-color);
+    font-weight: 500;
+    font-family: var(--primary-font-family);
+    text-decoration: none;
+    font-size: var(--font-size-secondary);
+    text-decoration: none !important;
+}
+
+/*--- Top Navigation Bar End --*/
+
+/*---Desktop navbar --*/
+.navbar-brand .logo-main {
+    height: 80px;
+    width: auto;
+}
+
+.navbar-main {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: var(--ternary-color);
+   
+
+}
+
+.nav-item .nav-link {
+    color: var(--primary-color) !important;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--primary-font-family) !important;
+}
+
+.nav-item .nav-link:hover {
+    color: var(--bg-color) !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.dropdown-menu {
+    border: none !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 20px  0!important;
+
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--primary-font-family) !important;
+    color: var(--primary-color) !important;
+
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #a2ddf831 !important;
+    border-left: 3px solid var(--bg-color) !important;
+    color: var(--primary-color) !important;
+    color: var(--bg-color) !important;
+    transition: all 0.1s ease-in-out;
+
+}
+
+/*---Desktop navbar End --*/
+
+/*--- Mobile Navbar ---*/
+.offcanvas-body .navbar-nav .nav-item .dropdown .dropdown-item {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--primary-font-family) !important;
+    color: var(--primary-color) !important;
+
+}
+
+.navbar-toggler {
+    border: 2px solid var(--bg-color) !important;
+    box-shadow: none !important;
+}

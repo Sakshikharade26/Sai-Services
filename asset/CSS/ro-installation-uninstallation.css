@@ -1,0 +1,378 @@
+:root {
+    --primary-font-family: "Poppins", sans-serif;
+    --primary-color: #000000;
+    --secondary-color: #494949;
+    --ternary-color: #FFFFFF;
+    --top-padding: 60px;
+    --bottom-padding: 60px;
+    --bg-color: #099CDF;
+    --bg-color-two: #2971AE;
+    --font-size-primary: 40px;
+    --font-size-secondary: 24px;
+    --font-size-tertiary: 17px;
+
+    /*----mbile font size----*/
+    --font-size-mobile-primary: 28px;
+    --font-size-mobile-secondary: 22px;
+    --font-size-mobile-tertiary: 16px;
+
+}
+
+
+
+.about-banner {
+    background-color: #2971AE;
+    height: 200px;
+}
+
+.about-banner-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+}
+
+.about-banner-heading h1 {
+    color: white;
+    font-weight: 500;
+    font-family: var(--primary-font-family);
+    font-size: 32px;
+    padding-top: 80px;
+    font-weight: 500;
+}
+
+
+.service-section {
+    padding-top: var(--top-padding);
+    padding-bottom: var(--bottom-padding);
+}
+
+
+.service-left-img img {
+    border-radius: 5px;
+}
+
+.service-right-heading {
+    font-family: var(--primary-font-family);
+    color: var(--bg-color-two);
+    font-size: 28px;
+    margin-bottom: 20px;
+
+}
+
+.service-right-para {
+    font-size: var(--font-size-tertiary);
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.service-icon i {
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.service-icon p {
+    font-size: var(--font-size-tertiary);
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-weight: 600;
+}
+
+/*-----service-card-row-----*/
+.service-card-section {
+    padding-bottom: var(--bottom-padding);
+}
+
+.service-card-one {
+    background-color: var(--ternary-color);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.service-card-two {
+    background-color: var(--ternary-color);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+
+.service-card-heading {
+    background-color: var(--bg-color-two);
+    border-radius: 10px 10px 0 0;
+    padding: 8px;
+}
+
+.service-card-heading h3 {
+    color: var(--ternary-color);
+    font-family: var(--primary-font-family);
+    font-size: 22px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.service-card-row {
+    background-color: #F5F9FB;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 40px;
+
+}
+
+.service-card-icon i {
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.service-card-icon p {
+    font-size: var(--font-size-tertiary);
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-weight: 600;
+}
+
+.service-card-menu {
+    padding: 20px;
+}
+
+@media (max-width: 576px) {
+    .about-banner-heading h1 {
+        font-size: 22px;
+    }
+
+    .service-right-heading {
+        font-size:var(--font-size-mobile-secondary) !important;
+    }
+
+    .service-card-icon P {
+        font-size: var(--font-size-mobile-tertiary) !important;
+        text-align: justify !important;
+    }
+
+    .service-icon p {
+        font-size: var(--font-size-mobile-tertiary) !important;
+    }
+
+    .service-card-icon i {
+        font-size: var(--font-size-mobile-tertiary) !important;
+    }
+
+
+
+    .service-card-heading h3 {
+        font-size: var(--font-size-mobile-secondary) !important;
+        text-align: center !important;
+    }
+
+    .service-right-para {
+        font-size: var(--font-size-mobile-tertiary) !important;
+    }
+
+    .service-right-heading {
+        font-size: var(--font-size-mobile-secondary) !important;
+
+    }
+
+
+    .service-icon i {
+        font-size: var(--font-size-mobile-tertiary) !important;
+    }
+
+
+    .service-icon p {
+        font-size: var(--font-size-mobile-tertiary) !important;
+    }
+
+    .service-card-two {
+        margin: 0px !important;
+    }
+
+    .service-card-one {
+        margin: 0px !important;
+    }
+
+    .process-heading {
+        font-size: var(--font-size-mobile-secondary) !important;
+    }
+
+    .process-para {
+        font-size: 18px !important;
+    }
+
+    .process-content .process-btn .btn-1 {
+        font-size: var(--font-size-mobile-tertiary) !important;
+        text-align: left !important;
+    }
+
+    .process-icon {
+        font-size: 16px !important;
+    }
+
+    .faq-heading {
+        font-size: var(--font-size-mobile-primary) !important;
+    }
+
+    .accordion-header .accordion-button h6 {
+        font-size: var(--font-size-mobile-tertiary) !important;
+        text-align: justify !important;
+    }
+
+    .accordion-body {
+        font-size: var(--font-size-mobile-tertiary) !important;
+        text-align: justify !important;
+    }
+
+    .accordion-button {
+        padding: 10px 15px !important;
+    }
+
+    .accordion-body {
+        padding: 3px 15px !important;
+    }
+
+    @media (max-width: 992px) {
+
+        .service-card-two {
+            margin: 0px !important;
+        }
+
+        .service-card-one {
+            margin: 0px !important;
+        }
+
+    }
+
+}
+
+
+/*-----process-section-----*/
+.process-section {
+    padding-top: var(--top-padding);
+    padding-bottom: var(--bottom-padding);
+    background-color: var(--bg-color-two);
+}
+
+.process-icon {
+    font-size: 18px;
+    margin-top: 20px !important;
+}
+
+.process-content .process-heading {
+    font-size: 28px;
+    color: white;
+    font-family: var(--primary-font-family);
+    margin-bottom: 15px;
+}
+
+.process-content .process-para {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    font-family: var(--primary-font-family);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.process-content .process-btn .btn-2 {
+    background-color: #2970ae54;
+    color: var(--ternary-color);
+    font-family: var(--primary-font-family);
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.process-content .process-btn .btn-1 {
+    background-color: var(--ternary-color);
+    color: var(--bg-color-two);
+    font-weight: 600;
+    width: 100%;
+    height: 53px;
+    font-family: var(--primary-font-family);
+    font-size: 18px;
+    border: 2px solid var(--bg-color-two);
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+/*----process-section-end-----*/
+
+/*----FAQ-section-----*/
+.faq-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f5f9fb70;
+}
+
+.faq-heading {
+    font-size: var(--font-size-primary);
+    color: var(--primary-color);
+    font-family: var(--primary-font-family);
+}
+
+.accordion-header .accordion-button h6 {
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-weight: 600 !important;
+    font-size: 18px;
+}
+
+.accordion-body {
+    font-size: 16px;
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+}
+
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--primary-color) !important;
+    background-color: none;
+}
+
+.accordion-button {
+    color: var(--primary-color) !important;
+    background-color: none !important;
+    margin-bottom: 20px !important;
+    box-shadow: none !important;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.accordion-button:focus-visible {
+    outline: none !important;
+    background-color: none !important;
+
+}
+
+
+
+.accordion-item {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    margin-bottom: 20px !important;
+}
+
+.accordion {
+    background-color: none !important;
+}
